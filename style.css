@@ -1,6 +1,7 @@
 body{
     font-family: 'Lato', sans-serif;
     color: #575757;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -83,6 +84,17 @@ height: 550px;
 }
 .box-shadow img{
     border-radius: 30px;
+}
+.number-section{
+    display: flex;
+    box-shadow: 0px 0px 20px 0 rgb(223, 223, 223);
+    margin: 50px 50px;
+    border-radius: 20px;
+    padding: 50px;
+}
+.category{
+    background-color: #faf1e5;
+    padding: 20px 0;
 }
 .cat-widget{
     display: flex;
