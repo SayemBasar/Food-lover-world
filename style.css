@@ -1,36 +1,45 @@
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #575757;
     margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 45px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 40px;
+    margin: 0;
+}
+h3{
+    font-size: 25px;
+    color: #000000;
+    margin-bottom: 0;
 }
 p{
     font-size: 18px;
+    line-height: 30px;
 }
-
 .hero-section{
     display: flex;
-
 }
 .half-width {
     width: 50%;
     margin-left: 100px;
     margin-right: 100px;
 }
-.hero-right img{
+.hero-right-column img{
     width: 550px;
     height: 650px;
 }
-.hero-left h1{
+.hero-left-column h1{
     margin-top: 100px;
     line-height: 65px;
 }
-.hero-left span{
+.hero-left-column span{
     color: #FB8B47;
 }
-.hero-left P{
+.hero-left-column P{
     margin-bottom: 50px;
 }
 .link-botton{
@@ -45,9 +54,7 @@ p{
     background-image: url(images/about-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-height: 550px;
-
-
+    height: 550px;
 }
 .person-image {
     display: flex;
@@ -67,18 +74,18 @@ height: 550px;
 .about-description p {
     margin-bottom: 50px;
 }
-.recipies-section {
+.recipes-section {
     margin: 50px 100px;
 }
-.recipies-section h2{
+.recipes-section h2, .center{
     text-align: center;
 }
-.recipie-items{
+.recipe-items{
     display: flex;
-    width: 350px ;
-    
+    width: 350px ; 
+    margin-top: 50px;  
 }
-.recipie-items img {
+.recipe-items img {
     width: 300px;
     height: 250px;
 }
@@ -94,16 +101,21 @@ height: 550px;
 .number-section{
     display: flex;
     box-shadow: 0px 0px 20px 0 rgb(223, 223, 223);
-    margin: 50px 50px;
+    margin: 100px 100px;
     border-radius: 20px;
     padding: 50px;
     justify-content: center;
 }
+.social-num {
+    margin-left: 115px;
+    margin-right: 120px;
+}
 .social-num h2 {
     font-size: 40px;
     margin: 5px;
+    color: #000000;
 }
-.category{
+.category {
     background-color: #faf1e5;
     padding: 20px 0;
     text-align: center;
@@ -111,33 +123,36 @@ height: 550px;
 .cat-widget {
     display: flex;
     justify-content: center;
+    margin: 0 100px;
 }
 .cat {
-    margin: 0 10px;
+    margin: 40px 12px;
 }
-.cat-bg img{
+.cat-bg img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
 }
-.cat-widget a{
+.cat-widget a {
     text-decoration: none;
-    text-align: center;
+    color: #333333;
 }
-.book-section{
+.cat-widget a:hover {
+    color: #FE4E30;
+    text-decoration: underline;
+}
+.book-section {
     background-image: url(images/book-sec-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    padding: 100px 100px;
 }
-.book-desc h2 {
-    margin-top: 103px;
-    margin: 0;
-    color: #ffffff;
-    display: block;
+.book-desc h2,.book-desc p {
+    color: #eaeaea;
+    margin-bottom: 25px;
 }
 .book-image img{
-width: 120px;
-height: 170px;
-margin-left: 20px;
+    width: 120px;
+    height: 170px;
+    margin-right: 20px;
 }
