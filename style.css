@@ -84,3 +84,26 @@ height: 550px;
 .box-shadow img{
     border-radius: 30px;
 }
+.cat-widget{
+    display: flex;
+}
+.cat-bg img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.cat-widget a{
+text-decoration: none;
+text-align: center;
+}
+.book-section{
+    background-image: url(images/book-sec-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.book-image img{
+width: 120px;
+height: 170px;
+margin-left: 20px;
+}
