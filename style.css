@@ -180,7 +180,6 @@ footer p {
 .copyright {
     margin-left: 100px;
 }
-
 .social-link li {
     text-align: right;
     list-style: none;
@@ -188,13 +187,11 @@ footer p {
     padding: 10px;
     color: #fff;
 }
-
 .social-link {
     position: absolute;
     right: 0;
     margin-right: 100px;
 }
-
 .social-link a {
     color: #c5c5c5;
 }
