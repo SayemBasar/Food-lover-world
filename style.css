@@ -96,7 +96,7 @@ p{
     height: 250px;
 }
 .box-shadow {
-    box-shadow: 0px 0px 20px 0 rgb(223 223 223);
+    box-shadow: 0px 0px 20px 0 #d4dee2d9;
     padding: 20px;
     border-radius: 20px;
     margin-right: 60px;
@@ -106,7 +106,7 @@ p{
 }
 .number-section{
     display: flex;
-    box-shadow: 0px 0px 20px 0 rgb(223, 223, 223);
+    box-shadow: 0px 0px 20px 0 #d4dee2d9;
     margin: 100px 100px;
     border-radius: 20px;
     padding: 50px;
