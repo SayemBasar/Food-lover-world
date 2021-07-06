@@ -30,29 +30,34 @@ p{
 }
 .hero-left-column {
     padding: 100px 0px;
+    margin-left: 100px;
 }
-
+.hero-right-column {
+    margin-right: 100px;
+}
 .hero-right-column img {
     padding: 30px 0px;
-    width: 500px;
+    width: 600px;
     height: 600px;
 }
 .span-color{
-    color: #FB8B47;
+    color: #0089ff;
 }
 .hero-left-column P{
     margin-bottom: 50px;
 }
-.link-botton{
-    background-image: linear-gradient(to left,#FD4F30, #FB964B);
+.link-botton {
+    background-image: linear-gradient(to left,#0089ff, #a5d4ee);
     padding: 20px 40px;
     border-radius: 50px;
     text-decoration: none;
-    color: #ffffff;
+    font-weight: 600;
+    color: #000000;
+    box-shadow: 0 0 20px 2px #7ec2e8;
 }
 .about-section{
     display: flex;
-    background-image: url(images/about-banner.jpg);
+    background-image: url(images/about-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
@@ -116,7 +121,7 @@ p{
     color: #000000;
 }
 .category {
-    background-color: #faf1e5;
+    background-color: #EBF8FF;
     padding: 20px 0;
     text-align: center;
 }
@@ -125,6 +130,14 @@ p{
     justify-content: center;
     margin: 0 100px;
 }
+.cat-widget a {
+    text-decoration: none;
+    color: #333333;
+}
+.cat-widget a:hover {
+    color: #0089ff;
+    text-decoration: underline;
+}
 .cat {
     margin: 40px 12px;
 }
@@ -132,14 +145,6 @@ p{
     border-radius: 50%;
     width: 140px;
     height: 140px;
-}
-.cat-widget a {
-    text-decoration: none;
-    color: #333333;
-}
-.cat-widget a:hover {
-    color: #FE4E30;
-    text-decoration: underline;
 }
 .book-section {
     background-image: url(images/book-sec-bg.jpg);
@@ -160,10 +165,36 @@ footer {
     border-top: 1px solid #EBECEC;
     background-color: #0b0d17;
     text-align: center;
-    padding: 50px 0px;
+    padding-top: 50px;
 }
 footer p {
-    margin-top: 35px;
+    margin-top: 10px;
     color: #c5c5c5;
     font-size: 14px;
+}
+.footer-widget {
+    background-color: black;
+    display: flex;
+    padding: 10px;
+}
+.copyright {
+    margin-left: 100px;
+}
+
+.social-link li {
+    text-align: right;
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    color: #fff;
+}
+
+.social-link {
+    position: absolute;
+    right: 0;
+    margin-right: 100px;
+}
+
+.social-link a {
+    color: #c5c5c5;
 }
