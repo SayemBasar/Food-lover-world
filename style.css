@@ -4,7 +4,7 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 45px;
+    font-size: 48px;
     font-weight: 700;
 }
 h2 {
@@ -28,15 +28,16 @@ p{
     margin-left: 100px;
     margin-right: 100px;
 }
-.hero-right-column img{
-    width: 550px;
-    height: 650px;
+.hero-left-column {
+    padding: 100px 0px;
 }
-.hero-left-column h1{
-    margin-top: 100px;
-    line-height: 65px;
+
+.hero-right-column img {
+    padding: 30px 0px;
+    width: 500px;
+    height: 600px;
 }
-.hero-left-column span{
+.span-color{
     color: #FB8B47;
 }
 .hero-left-column P{
@@ -44,7 +45,7 @@ p{
 }
 .link-botton{
     background-image: linear-gradient(to left,#FD4F30, #FB964B);
-    padding: 20px 30px;
+    padding: 20px 40px;
     border-radius: 50px;
     text-decoration: none;
     color: #ffffff;
@@ -107,12 +108,11 @@ p{
     justify-content: center;
 }
 .social-num {
-    margin-left: 115px;
-    margin-right: 120px;
+    margin-left: 105px;
+    margin-right: 105px;
 }
 .social-num h2 {
     font-size: 40px;
-    margin: 5px;
     color: #000000;
 }
 .category {
@@ -155,4 +155,15 @@ p{
     width: 120px;
     height: 170px;
     margin-right: 20px;
+}
+footer {
+    border-top: 1px solid #EBECEC;
+    background-color: #0b0d17;
+    text-align: center;
+    padding: 50px 0px;
+}
+footer p {
+    margin-top: 35px;
+    color: #c5c5c5;
+    font-size: 14px;
 }
